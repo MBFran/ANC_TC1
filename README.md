@@ -13,7 +13,7 @@ de la materia Teoria de Circuitos 1 de la UTN FRBA a cargo de:
      * En esta etapa esta toda la electrónica analógica, mayoritariamente conformada por filtros, amplificadores, y conversores ADC y DAC que actuan de intermediarios entre la siguiente region y la region acustica
   3. Region Digital:
      * Aqui yacen los algoritmos y procesadores digitales para el trabajo más complejo del tratamiento de la señal para su cancelacion.
-<img width="403" height="422" alt="Captura de pantalla 2026-05-21 151242" src="https://github.com/user-attachments/assets/747537d1-d43f-4010-8b44-c04babf28555" />
+  <img width="403" height="422" alt="Captura de pantalla 2026-05-21 151242" src="https://github.com/user-attachments/assets/747537d1-d43f-4010-8b44-c04babf28555" />
 ___
 * Nuestro trabajo constará en poder llevar a la practica uno de estos sistemas, mezclando tanto electronica digital como analógica. Teniendo en cuenta las problematicas que se destacan en la mayoria de investigaciones como el retardo que puede haber entre la llegada del audio y la salida de la señal procesada, y la potencia de cancelacion que podamos alcanzar.
 
