@@ -27,6 +27,21 @@
          3. Return-to-Complement (RTC)/Mixed Mode: 2do y 3er Nyquist
    2. Referencias:
       * https://www.ti.com/content/dam/videos/external-videos/en-us/2/3816841626001/5577272810001.mp4/subassets/TIPL4705-DAC-Output-Response.pdf
+5. Power Amplifier:
+   1. Idea/Concepto:
+      * Los amplificadores de potencia son aquellos que se suelen utilzar, al menos en el ambito del audio, en las etapas finales o de salida donde lo que se busca es tomar la señal ya procesada al completo y emitirla a un parlante. Por lo tanto, la señal debe ganar en potencia para ser capaz de hacer vibrar el cono del altavoz.
+      * Existen distintos tipos de amplis de potencia:
+         1. Clase A
+         2. Clase B
+         3. Clase AB
+         4. Clase D
+      * Siendo las 2 últimas, las mejores opciones debido a que tienen menos perdida y menor ruido.
+   2. Circuito:
+      * Como las mejores opciones son los amplificadores de clase D o AB, buscaremos utilizar el amplificador PAM8413 (Clase D) que incluso posee algun circuito comercial por lo que podremos basarnos en el para el desarrollo del mismo a pesar de su baja linealidad.
+   3. Referencias:
+      * https://www.analog.com/en/resources/glossary/power-amplifier.html
+      * https://www.analog.com/en/resources/technical-articles/types-of-audio-amplifiers.html
+      * https://www.analog.com/en/resources/technical-articles/class-d-amplifiers-guide.html
 # Conceptos Complementarios
 * Conceptos que permiten una mejor comprension del tema pero no son estrictamente necesarios.
 1. Adaptive lattice filter:
