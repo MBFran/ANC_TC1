@@ -22,3 +22,5 @@ ___
 * Simulacion del circuito encontrado mediante LTSPICE. Reemplazando los amplificadores operacionales por Op07, se llega a apreciar que a medida que el "ruido ambiente" aumenta en intensidad, empieza a generar distorciones en la salida (Hay que revisar que el circuito no tenga errores por las modificaciones).
 ### 03/06/26
 * Se recopilo informacion acerca de los principales bloque de entrada al sistema ANC hasta el ADC que entrega la señal a la región digital y pudiendo definir el tipo de arquitectura de ADC que precisamos para trabajar sin excedernos con el presupuesto. A su vez, se observa que la mayoria de preamps que aparecen en foros y páginas que desarrollan al respecto suelen utilizar TBJ's pero operacionales como los TL082/72 suelen ser buenas opciones para trabajar y reducir los consumos del circuito.
+### 08/06/26
+* Avanse en la investigacion de la etapa analogica del sistema completo. Se desarrollo sobre los filtros de reconstruccion y los amplificadores de potencia, ademas de encontrar algunos circuitos publicos/comerciales que pueden ayudar al desarrollo del equipo para no tener que desarrollar desde 0 cada etapa.
